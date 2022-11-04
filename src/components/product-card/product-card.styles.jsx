@@ -1,4 +1,6 @@
-.product-card-container {
+import styled from "styled-components";
+
+export const ProductCardContainer = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -14,6 +16,7 @@
   }
 
   button {
+    font-size:0.5rem;
     width: 80%;
     opacity: 0.7;
     position: absolute;
@@ -48,4 +51,4 @@
       width: 10%;
     }
   }
-}
+`
